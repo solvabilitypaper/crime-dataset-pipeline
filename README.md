@@ -7,7 +7,7 @@ This project is written in `python3` (3.10.x) and can be installed as follows:
 python -m venv env_py310_crimedataset
 source ./env_py310_crimedataset/bin/activate
 pip install --upgrade pip setuptools wheel requests
-git clone ... crime-dataset-pipeline
+git clone https://github.com/solvabilitypaper/crime-dataset-pipeline.git crime-dataset-pipeline
 cd crime-dataset-pipeline
 pip install -r requirments.txt
 ```
