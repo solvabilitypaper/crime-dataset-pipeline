@@ -51,7 +51,6 @@ kblrn.iml
 
 # data
 tmp/
-data/
 src/graph/*.pkl
 src/graph/*.txt
 src/graph/*.json
