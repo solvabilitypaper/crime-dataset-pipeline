@@ -24,6 +24,8 @@ wheels/
 .idea/*
 *.idea
 .idea/workspace.xml
+kblrn/__pycache__/
+*/__pycache__/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -38,6 +40,9 @@ pip-delete-this-directory.txt
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Pycharm
+kblrn.iml
+
 # Vscode
 .vscode/
 
@@ -45,4 +50,11 @@ pip-delete-this-directory.txt
 *.log
 
 # data
+tmp/
 data/
+src/graph/*.pkl
+src/graph/*.txt
+src/graph/*.json
+overpass.pkl
+output_prompt.txt
+src/outfile_poi_map.pkl
